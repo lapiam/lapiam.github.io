@@ -26,7 +26,7 @@
         }
 
         header p {
-            color: white;
+            color: white; /* Ensure this phrase is white */
             margin: 0;
         }
 
@@ -39,6 +39,11 @@
 
         p {
             color: #555;
+            font-size: 1.1em;
+        }
+        
+        p1 {
+            color: white;
             font-size: 1.1em;
         }
 
@@ -59,6 +64,20 @@
             background-position: center;
             height: 500px;
             color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .background-section h2 {
+            font-size: 2.5em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .section-content {
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.3);
         }
 
         a {
@@ -80,7 +99,10 @@
 
 <div class="container">
     <section class="background-section">
-        <!-- Removed the text box here -->
+        <div class="section-content">
+            <h1>AI Research in the Amazon</h1>
+            <p1>Leveraging AI for biodiversity conservation and environmental monitoring.</p1>
+        </div>
     </section>
 
     <section class="section">
